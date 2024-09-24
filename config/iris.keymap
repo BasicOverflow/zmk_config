@@ -18,7 +18,7 @@
                 &kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T         &kp P     &kp O     &kp I     &kp U     &kp Y     &kp QUOT
                 &kp CAPS   &kp A     &kp S     &kp D     &kp F     &kp G         &kp SCLN  &kp L     &kp K     &kp J     &kp H     &kp RSFT
                 &kp LCTRL  &kp Z     &kp X     &kp C     &kp V     &kp B         &kp LBKT  &kp RBKT  &kp N     &kp M     &kp COMMA &kp DOT
-                                               &kp LSFT  &mo 1     &kp SPACE     &kp ENTER &mo 2     &kp RALT
+                                               &kp LSFT  &mo 1     &kp SPACE     &kp ENTER &mo 1     &kp RALT
             >;
         };
 
@@ -29,26 +29,6 @@
                 &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT &trans    &kp LBRACE    &trans    &trans    &trans    &trans    &kp RBRC  &kp RSFT
                 &kp RCTRL  &trans    &trans    &trans    &trans    &kp S(LBKT)   &kp PIPE  &kp RBRC  &trans    &trans    &trans    &trans
                                                &trans    &trans    &trans        &trans    &trans    &trans
-            >;
-        };
-
-        raise_layer {
-            bindings = <
-                &kp F12    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5        &trans    &trans    &trans    &trans    &trans    &trans
-                &rgb_toggle &S(KC_1) &S(KC_2) &S(KC_3)  &S(KC_4)  &S(KC_5)      &trans    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans
-                &rgb_mode  &kp MPRV  &kp MNXT &kp VOLU  &kp PGUP  &S(KC_MINUS)  &kp HUI   &kp SAI   &kp VAI   &kp HOME  &kp EQL   &trans
-                &kp MUTE   &kp MSTP  &kp MPLY &kp VOLD  &kp PGDN  &kp MINUS     &kp HUD   &kp SAD   &kp VAD   &kp END   &S(KC_EQL)&trans
-                                               &trans    &trans    &trans        &trans    &trans    &trans
-            >;
-        };
-
-        adjust_layer {
-            bindings = <
-                &kp TRNS   &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS      &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS
-                &kp TRNS   &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS      &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS
-                &kp TRNS   &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS      &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS
-                &kp TRNS   &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS      &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS  &kp TRNS
-                                               &kp TRNS  &kp TRNS  &kp TRNS      &kp TRNS  &kp TRNS  &kp TRNS
             >;
         };
     };
